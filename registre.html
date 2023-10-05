@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='registre.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Exrcici, formulari de registre</h1>
+
+    <form>
+        <div class="Nom">
+            <label>Nom: <input type="text" name="Nom" required></label>
+            <label>Llinatges <input type="text" name="Llinatges" required></label>
+        </div>
+        <div>
+            <label>Home: <input type="radio" name="genero"></label>
+            <label>Dona: <input type="radio" name="genero"></label>
+            <label>Altre: <input type="radio" name="genero"></label>
+        </div>
+        <div>
+            <label>Email: <input type="email" name="email" pattern=".+@gmail\.com" size="30" placeholder="daniel@example.com" required></label>
+            <label>Contraseya: <input type="password" name="password" minlength="5" maxlength="10" required></label>
+        </div>
+        <div>
+            <label>Data de Naixament: <input type="date" name="Data" required></label>
+        </div>
+        <div>
+            <label>Estic d'acord amb elst ermes i condicions <input type="checkbox" name="condicions" required></label>
+        </div>
+        <div>
+            <input type="submit" name="submit" placeholder="submit">
+        </div>
+    </form>
+</body>
+</html>
