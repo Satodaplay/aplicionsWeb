@@ -1,0 +1,35 @@
+table,
+    td {
+        border: 1px solid #333;
+    }
+
+.sistemes {
+    border-color: #bce794;
+    background-color: #3f4e35;
+    color: #e8ffbd;
+}
+
+.aplicacions {
+    border-color: #e4b016;
+    background-color: #686604;
+    color: #bfdf66;
+}
+
+.eie {
+    border-color: #ff2ded44;
+    background-color: #c73acc;
+    color: #e2b6db;
+}
+
+.seguretat {
+    border-color: #3855b344;
+    background-color: #3e31b3;
+    color: #78b4ec;
+}
+
+.serveis {
+    border-color: #9854;
+    background-color: #333;
+    color: #a31c1c;
+}
+
